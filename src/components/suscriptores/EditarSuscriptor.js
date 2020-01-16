@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
  
 
 class EditarSuscriptor extends Component {
-     nombreInput = React.createRef();
+    nombreInput = React.createRef();
     apellidoInput = React.createRef();
     codigoInput = React.createRef();
     carreraInput = React.createRef();
