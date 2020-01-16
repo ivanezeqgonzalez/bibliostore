@@ -4,6 +4,7 @@ import { reduxFirestore, firestoreReducer } from 'redux-firestore';
 import firebase from 'firebase/app';
 
 import 'firebase/firestore';
+import 'firebase/auth';
 
 //cfg firestore
 const firebaseConfig = {

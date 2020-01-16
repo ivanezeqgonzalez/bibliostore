@@ -14,6 +14,7 @@ import MostrarSuscriptor from './components/suscriptores/MostrarSuscriptor';
 import EditarSuscriptor from './components/suscriptores/EditarSuscriptor';
 import NuevoSuscriptor from './components/suscriptores/NuevoSuscriptor';
 
+import Login from './components/auth/Login';
 import Navbar from './components/layout/Navbar';
 
 function App() {
@@ -33,6 +34,8 @@ function App() {
                         <Route exact path="/suscriptores/nuevo" component={NuevoSuscriptor} />
                         <Route exact path="/suscriptores/mostrar/:id" component={MostrarSuscriptor} />
                         <Route exact path="/suscriptores/editar/:id" component={EditarSuscriptor} />
+
+                        <Route exact path="/login" component={Login} />
 
                     </Switch>
                 </div>
